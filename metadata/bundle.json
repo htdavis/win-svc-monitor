@@ -1,0 +1,22 @@
+{
+  "name": "win-svc-monitor",
+  "author": "CA Technologies",
+  "displayName": "Windows Services Monitor",
+  "version": "1.0.0.0",
+  "facets": [],
+  "dependencies": [
+    "apmia",
+    "em-connection"
+  ],
+  "enhances": [],
+  "excludes": [],
+  "compatibility": {
+    "osName": [
+      "windows"
+    ],
+    "agentVersion": ">=10.5"
+  },
+  "specificationVersion": "2",
+  "type": "apmia",
+  "dynamic": true
+}
