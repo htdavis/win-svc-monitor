@@ -8,7 +8,7 @@ $results =get-content .\services.txt |select-object -skip 1
 
 ForEach ($line in $results)
 {
-    # split on space/tab get each column
+    # split on comma get each column
     $arrData =$line.Split(",")
     #$arrData[0] - shortname
     #$arrData[5] - service name
